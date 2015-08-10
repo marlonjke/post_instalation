@@ -72,7 +72,6 @@ sudo apt-get autoremove
 #******************************************************************************
 #Configuração do git/ github
 #https://help.github.com/articles/set-up-git/
-
 echo "Configurando git"
 echo "Nome de usuário: "
 read usuario
@@ -80,10 +79,9 @@ echo "Email: "
 read email
 git config --global user.name usuario
 git config --global user.email email
-# Set git to use the credential memory cache
 git config --global credential.helper cache
-# Set the cache to timeout after 1 hour (setting is in seconds)
 git config --global credential.helper 'cache --timeout=3600'
+git config --global push.default simple 
 #******************************************************************************
 #Configurações do vim...
 vim-addons install latex-suite	
