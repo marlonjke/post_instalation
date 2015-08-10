@@ -3,19 +3,6 @@
 # Script de instalação de pacotes/ programas que julgo interessantes
 # para o ubuntu... Fique livre para modificá-lo
 #******************************************************************************
-
-#Pacotes instalados:
-# abntex - Pacote de padronização ABNT para trabalhos feitos em LaTeX
-# build-essential -
-# caffeine-plus - Ativa/desativa descanso de tela.
-# cantor - software de processamento matemático para octave
-# cantor-backend-octave - software de processamento matemático para octave
-# gcc -
-# octave - software de processamento matemático (alternativo ao MatLab)
-# oracle-java8-installer - Instalador da JVM
-# popcorn-time - Player de Filmes, séries, etc...
-
-#******************************************************************************
 #Repositórios à serem adicionado ao source list...
 add-apt-repository -y ppa:atareao/atareao
 add-apt-repository -y ppa:webupd8team/java
