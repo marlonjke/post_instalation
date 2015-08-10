@@ -1,2 +1,2 @@
-# post_instalation
-Scripts de pós instalação do ubuntu
+# Scripts de pós instalação do Ubuntu
+Scripts de instalação de programas/ indicadores que julgo importantes para se ter no Ubuntu.
